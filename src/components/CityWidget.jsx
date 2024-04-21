@@ -15,6 +15,9 @@ const useStyles = makeStyles((theme) => ({
     },
     backgroundColor: 'transparent',
   },
+  typoColor: {
+    color: '#FFF',
+  },
   chartContainer: {
     height: 100,
   },
@@ -51,7 +54,7 @@ const CityWidget = ({ city, onClick }) => {
   return (
     <Card className={classes.card} onClick={handleClick}>
       <CardContent>
-        <Typography variant="h6">{city.name}</Typography>
+        <Typography variant="h6" className={classes.typoColor}>{city.name}</Typography>
         <div className={classes.chartContainer}>
           <ResponsiveContainer>
             <LineChart data={city.chartData}>
