@@ -2,6 +2,8 @@
 
 This project is base-setup is done using create-react-app.
 
+**************Please wait few seconds so tha map can be loaded, currently loading the map from CDN url******************
+
 WebApp might look slighty differnet from image disaply in teh case study but I have implemented all the logics mentioned in the case study, hereby mentioning the same.
 
 data is stored in 'util/mockData.js'
