@@ -1,6 +1,6 @@
 # Getting Started with BCG Case study WebApp
 
-This project is base-setup is done using create-react-app.
+This project is base-setup is done using create-react-app and will be run on the local dev server 3000
 
 **************Please wait few seconds so tha map can be loaded, currently loading the map from CDN url******************
 
